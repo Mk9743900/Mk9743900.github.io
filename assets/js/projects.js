@@ -64,6 +64,21 @@ const PROJECTS = [
     year: "2024"
   }
 
+  ,{
+    id: 5,
+    featured: false,
+    title: "AI Prompt Generator",
+    category: "AI Tools",
+    problem: "Users struggle to write effective AI prompts — either building from scratch or fixing broken ones that give poor results.",
+    solution: "Built a live web tool powered by Google Gemini with two modes: Builder (craft prompts from role, tone, format inputs) and Fixer (analyze and repair bad prompts).",
+    outcome: "Fully live tool · Dual-mode Builder + Fixer · Powered by Gemini API",
+    tags: ["JavaScript", "Gemini API", "HTML", "CSS", "Prompt Engineering"],
+    github: "https://github.com/Mk9743900/prompt-generator",
+    demo: "https://mk9743900.github.io/prompt-generator/",
+    image: "",
+    year: "2025"
+  }
+
   // ─────────────────────────────────────────────────
   //  ADD YOUR NEXT PROJECT HERE — just copy the block
   //  above and paste it after this comment, inside the
@@ -94,7 +109,7 @@ const PROFILE = {
   role:        "Data Scientist",
   tagline:     "I turn raw, messy data into decisions that move businesses.",
   location:    "Delhi, India 🇮🇳",
-  email:       "mdisrahar@gmail.com",
+  email:       "mk9743900@gmail.com",
   github:      "https://github.com/Mk9743900",
   linkedin:    "https://linkedin.com/in/yourusername",
   resume:      "assets/docs/resume.pdf",
