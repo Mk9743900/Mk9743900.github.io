@@ -16,7 +16,7 @@ const PROJECTS = [
     solution: "Built an XGBoost classifier with feature engineering on 50K+ customer records.",
     outcome: "91% accuracy · Reduced churn by 23% in Q1",
     tags: ["Python", "XGBoost", "Pandas", "Scikit-learn", "SHAP"],
-    github: "https://github.com/yourusername/churn-predictor",
+    github: "https://github.com/Mk9743900/churn-predictor",
     demo: "",                                // ← leave empty string if no live demo
     image: "",                               // ← add image path e.g. "assets/images/projects/churn.webp"
     year: "2024"
@@ -30,7 +30,7 @@ const PROJECTS = [
     solution: "Built an automated forecasting pipeline using Prophet + interactive Plotly dashboard.",
     outcome: "3 days → 10 minutes · 87% forecast accuracy",
     tags: ["Python", "Prophet", "Plotly", "SQL", "Pandas"],
-    github: "https://github.com/yourusername/sales-forecast",
+    github: "https://github.com/Mk9743900/sales-forecast",
     demo: "",
     image: "",
     year: "2024"
@@ -44,7 +44,7 @@ const PROJECTS = [
     solution: "Fine-tuned BERT model to auto-classify sentiment with 3 labels.",
     outcome: "94% classification accuracy · Saved 15 hrs/week",
     tags: ["Python", "BERT", "HuggingFace", "Flask"],
-    github: "https://github.com/yourusername/sentiment-nlp",
+    github: "https://github.com/Mk9743900/sentiment-nlp",
     demo: "",
     image: "",
     year: "2023"
@@ -58,7 +58,7 @@ const PROJECTS = [
     solution: "Deep exploratory analysis uncovering seasonal patterns and high-value customer segments.",
     outcome: "Identified top 3 revenue levers · Presented to leadership",
     tags: ["Python", "Pandas", "Seaborn", "Jupyter", "SQL"],
-    github: "https://github.com/yourusername/ecommerce-eda",
+    github: "https://github.com/Mk9743900/ecommerce-eda",
     demo: "",
     image: "",
     year: "2023"
@@ -95,8 +95,8 @@ const PROFILE = {
   tagline:     "I turn raw, messy data into decisions that move businesses.",
   location:    "Delhi, India 🇮🇳",
   email:       "your@email.com",
-  github:      "https://github.com/yourusername",
-  linkedin:    "https://linkedin.com/in/yourusername",
+  github:      "https://github.com/Mk9743900",
+  linkedin:    "https://www.linkedin.com/in/mohammed-israhar-694a7b1b0",
   resume:      "assets/docs/resume.pdf",
   bio:         "Data Analyst transitioning into Data Science — with hands-on experience in Python, statistical modeling, and building ML pipelines. I care about clarity, reproducibility, and impact."
 };
