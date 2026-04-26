@@ -9,28 +9,28 @@
 const PROJECTS = [
   {
     id: 1,
-    featured: true,                          // ← true = large card (max 2)
-    title: "Customer Churn Predictor",
+    featured: true,
+    title: "Telco Customer Churn Prediction",
     category: "Machine Learning",
-    problem: "Telecom company losing 18% of customers with zero early warning system in place.",
-    solution: "Built an XGBoost classifier with feature engineering on 50K+ customer records.",
-    outcome: "91% accuracy · Reduced churn by 23% in Q1",
-    tags: ["Python", "XGBoost", "Pandas", "Scikit-learn", "SHAP"],
-    github: "https://github.com/Mk9743900/churn-predictor",
-    demo: "",                                // ← leave empty string if no live demo
-    image: "",                               // ← add image path e.g. "assets/images/projects/churn.webp"
+    problem: "Telecom company had no system to identify customers likely to leave — losing revenue with zero early warning.",
+    solution: "Built a Random Forest classifier on 7,043 IBM Telco records, removed 11 corrupted rows, engineered features around tenure, charges, and contract type.",
+    outcome: "79% Accuracy · ROC-AUC 0.817 · Top churn drivers identified",
+    tags: ["Python", "Scikit-learn", "Pandas", "Matplotlib", "Seaborn"],
+    github: "https://github.com/Mk9743900/telco-churn-prediction",
+    demo: "",
+    image: "",
     year: "2024"
   },
   {
     id: 2,
     featured: true,
-    title: "Sales Forecasting Dashboard",
+    title: "SQL Social Media Analysis",
     category: "Data Analysis",
-    problem: "Finance team spending 3 days every month manually building forecasts in Excel.",
-    solution: "Built an automated forecasting pipeline using Prophet + interactive Plotly dashboard.",
-    outcome: "3 days → 10 minutes · 87% forecast accuracy",
-    tags: ["Python", "Prophet", "Plotly", "SQL", "Pandas"],
-    github: "https://github.com/Mk9743900/sales-forecast",
+    problem: "Social media platform data sitting in raw tables with no structured insights on user behavior or engagement patterns.",
+    solution: "Designed and queried a relational database to extract user activity trends, top content performers, and engagement metrics using advanced SQL.",
+    outcome: "Uncovered key engagement patterns · Structured insights from raw relational data",
+    tags: ["SQL", "Data Modeling", "Aggregations", "Joins", "Subqueries"],
+    github: "https://github.com/Mk9743900/SQL-Social_media_Project",
     demo: "",
     image: "",
     year: "2024"
@@ -38,30 +38,30 @@ const PROJECTS = [
   {
     id: 3,
     featured: false,
-    title: "NLP Sentiment Analyzer",
-    category: "NLP",
-    problem: "Support team manually tagging 500+ customer reviews per day.",
-    solution: "Fine-tuned BERT model to auto-classify sentiment with 3 labels.",
-    outcome: "94% classification accuracy · Saved 15 hrs/week",
-    tags: ["Python", "BERT", "HuggingFace", "Flask"],
-    github: "https://github.com/Mk9743900/sentiment-nlp",
+    title: "Zomato Data Analysis",
+    category: "Data Analysis",
+    problem: "Restaurant industry data from Zomato with no clear picture of what drives ratings, orders, and customer preferences.",
+    solution: "Performed end-to-end exploratory data analysis on Zomato dataset — cleaning, visualizing, and extracting patterns across cuisines, locations, and pricing.",
+    outcome: "Key restaurant success factors identified · Actionable insights on pricing & ratings",
+    tags: ["Python", "Pandas", "Matplotlib", "Seaborn", "EDA"],
+    github: "https://github.com/Mk9743900/Zomato_Data_analysis",
     demo: "",
     image: "",
-    year: "2023"
+    year: "2024"
   },
   {
     id: 4,
     featured: false,
-    title: "E-Commerce EDA Report",
-    category: "Data Analysis",
-    problem: "Business had 2 years of sales data but no actionable insight extracted from it.",
-    solution: "Deep exploratory analysis uncovering seasonal patterns and high-value customer segments.",
-    outcome: "Identified top 3 revenue levers · Presented to leadership",
-    tags: ["Python", "Pandas", "Seaborn", "Jupyter", "SQL"],
-    github: "https://github.com/Mk9743900/ecommerce-eda",
+    title: "JavaScript Projects Collection",
+    category: "Web Development",
+    problem: "Needed to build practical frontend skills to complement data science work and create interactive data visualizations.",
+    solution: "Built a collection of JavaScript projects covering DOM manipulation, API integration, and interactive UI components.",
+    outcome: "Expanded full-stack capability · Foundation for interactive DS dashboards",
+    tags: ["JavaScript", "HTML", "CSS", "DOM", "APIs"],
+    github: "https://github.com/Mk9743900/JavaScript-Projects",
     demo: "",
     image: "",
-    year: "2023"
+    year: "2024"
   }
 
   // ─────────────────────────────────────────────────
@@ -94,9 +94,9 @@ const PROFILE = {
   role:        "Data Scientist",
   tagline:     "I turn raw, messy data into decisions that move businesses.",
   location:    "Delhi, India 🇮🇳",
-  email:       "your@email.com",
+  email:       "mdisrahar@gmail.com",
   github:      "https://github.com/Mk9743900",
-  linkedin:    "https://www.linkedin.com/in/mohammed-israhar-694a7b1b0",
+  linkedin:    "https://linkedin.com/in/yourusername",
   resume:      "assets/docs/resume.pdf",
   bio:         "Data Analyst transitioning into Data Science — with hands-on experience in Python, statistical modeling, and building ML pipelines. I care about clarity, reproducibility, and impact."
 };
