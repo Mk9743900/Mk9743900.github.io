@@ -105,7 +105,7 @@ const SKILLS = {
 // ============================================================
 
 const PROFILE = {
-  name:        "Mohammed",
+  name:        "Mohammed Israhar",
   role:        "Data Scientist",
   tagline:     "I turn raw, messy data into decisions that move businesses.",
   location:    "Delhi, India 🇮🇳",
