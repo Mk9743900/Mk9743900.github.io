@@ -111,7 +111,7 @@ const PROFILE = {
   location:    "Delhi, India 🇮🇳",
   email:       "mk9743900@gmail.com",
   github:      "https://github.com/Mk9743900",
-  linkedin:    "https://linkedin.com/in/yourusername",
+  linkedin:    "https://www.linkedin.com/in/mohammed-israhar-694a7b1b0/",
   resume:      "assets/docs/resume.pdf",
   bio:         "Data Analyst transitioning into Data Science — with hands-on experience in Python, statistical modeling, and building ML pipelines. I care about clarity, reproducibility, and impact."
 };
